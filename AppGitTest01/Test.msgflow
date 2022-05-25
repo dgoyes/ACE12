@@ -6,10 +6,10 @@
     <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/AppGitTest01/icons/full/obj16/Test.gif"/>
     <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/AppGitTest01/icons/full/obj30/Test.gif"/>
     <composition>
-      <nodes xmi:type="ComIbmWSInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="37,51" URLSpecifier="/test">
+      <nodes xmi:type="ComIbmWSInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="37,51" URLSpecifier="/test1">
         <translation xmi:type="utility:ConstantString" string="HTTP Input"/>
       </nodes>
-      <nodes xmi:type="ComIbmWSReply.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="223,47">
+      <nodes xmi:type="ComIbmWSReply.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="260,75">
         <translation xmi:type="utility:ConstantString" string="HTTP Reply"/>
       </nodes>
       <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_1" targetNode="FCMComposite_1_2" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
